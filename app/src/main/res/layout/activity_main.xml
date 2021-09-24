@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageButton
+               android:layout_width="match_parent"
+               android:layout_height="270dp"
+               android:layout_marginBottom="25dp"
+               android:id="@+id/appetizers_menu"
+               android:src="@drawable/appetizers_menu">
+           </ImageButton>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_alignBottom="@+id/appetizers_menu"
+               android:background="#AD5B5A5C"
+               android:fontFamily="casual"
+               android:text="Appetizers"
+               android:textColor="#FFFFFF"
+               android:textSize="30dp">
+           </TextView>
+
+           <ImageButton
+               android:layout_width="match_parent"
+               android:layout_height="270dp"
+               android:layout_marginBottom="25dp"
+               android:id="@+id/burgers_menu"
+               android:src="@drawable/vegeburgers"
+               android:layout_below="@+id/appetizers_menu">
+           </ImageButton>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_alignBottom="@+id/burgers_menu"
+               android:background="#AD5B5A5C"
+               android:fontFamily="casual"
+               android:text="Burgers"
+               android:textColor="#FFFFFF"
+               android:textSize="30dp">
+           </TextView>
+
+           <ImageButton
+               android:layout_width="match_parent"
+               android:layout_height="270dp"
+               android:layout_marginBottom="25dp"
+               android:id="@+id/salads_menu"
+               android:src="@drawable/salads_menu"
+               android:layout_below="@+id/burgers_menu">
+           </ImageButton>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_alignBottom="@+id/salads_menu"
+               android:background="#AD5B5A5C"
+               android:fontFamily="casual"
+               android:text="Salads"
+               android:textColor="#FFFFFF"
+               android:textSize="30dp">
+           </TextView>
+
+           <ImageButton
+               android:layout_width="match_parent"
+               android:layout_height="270dp"
+               android:layout_marginBottom="25dp"
+               android:id="@+id/mains_menu"
+               android:src="@drawable/main_dishes"
+               android:layout_below="@+id/salads_menu">
+           </ImageButton>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_alignBottom="@+id/mains_menu"
+               android:background="#AD5B5A5C"
+               android:fontFamily="casual"
+               android:text="Mains"
+               android:textColor="#FFFFFF"
+               android:textSize="30dp">
+           </TextView>
+
+           <ImageButton
+               android:layout_width="match_parent"
+               android:layout_height="270dp"
+               android:layout_marginBottom="25dp"
+               android:id="@+id/desserts_menu"
+               android:src="@drawable/desserts"
+               android:layout_below="@+id/mains_menu">
+           </ImageButton>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_alignBottom="@+id/desserts_menu"
+               android:background="#AD5B5A5C"
+               android:fontFamily="casual"
+               android:text="Desserts"
+               android:textColor="#FFFFFF"
+               android:textSize="30dp">
+           </TextView>
+
+       </RelativeLayout>
+   </ScrollView>
+</RelativeLayout>
